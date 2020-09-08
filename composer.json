@@ -1,0 +1,21 @@
+{
+    "name": "ddmg/php-public-library",
+    "description": "PHP",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "Define your dependencies",
+    "authors": [
+        {
+            "name": "yinwei",
+            "email": "314488870@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload":{
+		"psr-4":{
+			"Ddmg\\":"src/"
+		}
+	}
+}
